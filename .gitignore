@@ -160,4 +160,4 @@ cython_debug/
 #.idea/
 
 # my ignore list
-echo ".devcontainer/" >> .gitignore
+.devcontainer/
