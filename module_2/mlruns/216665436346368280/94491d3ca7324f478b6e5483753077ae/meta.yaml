@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/94491d3ca7324f478b6e5483753077ae/artifacts
+end_time: 1716481462448
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 94491d3ca7324f478b6e5483753077ae
+run_name: clumsy-elk-738
+run_uuid: 94491d3ca7324f478b6e5483753077ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716481215360
+status: 3
+tags: []
+user_id: codespace

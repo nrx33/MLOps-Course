@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/92471924d1494b9db276ec2d4b231189/artifacts
+end_time: 1716480406934
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 92471924d1494b9db276ec2d4b231189
+run_name: big-stoat-939
+run_uuid: 92471924d1494b9db276ec2d4b231189
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716480352037
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/6fe24ec16c014e9dba980dbb19741c64/artifacts
+end_time: 1716479477349
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 6fe24ec16c014e9dba980dbb19741c64
+run_name: peaceful-roo-780
+run_uuid: 6fe24ec16c014e9dba980dbb19741c64
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716479200327
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/7a1601ab2fee44089928d321bbf78304/artifacts
+end_time: 1716480093747
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 7a1601ab2fee44089928d321bbf78304
+run_name: agreeable-chimp-438
+run_uuid: 7a1601ab2fee44089928d321bbf78304
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716480059660
+status: 3
+tags: []
+user_id: codespace

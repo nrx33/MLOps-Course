@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/ff30f8798aad424e896bc04f49498457/artifacts
+end_time: 1716488873346
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: ff30f8798aad424e896bc04f49498457
+run_name: powerful-owl-877
+run_uuid: ff30f8798aad424e896bc04f49498457
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716488870289
+status: 3
+tags: []
+user_id: codespace

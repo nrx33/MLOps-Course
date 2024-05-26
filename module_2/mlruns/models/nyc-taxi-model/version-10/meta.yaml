@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1716592526583
+current_stage: None
+description: ''
+last_updated_timestamp: 1716592526583
+name: nyc-taxi-model
+run_id: 011c0a04bf1045d791de5d3eac046d56
+run_link: ''
+source: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/011c0a04bf1045d791de5d3eac046d56/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/011c0a04bf1045d791de5d3eac046d56/artifacts/model
+user_id: null
+version: 10

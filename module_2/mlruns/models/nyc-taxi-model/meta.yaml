@@ -1,0 +1,10 @@
+aliases:
+  initial: '2'
+  past: '1'
+  pre-production: '4'
+  production: '6'
+  testing: '11'
+creation_timestamp: 1716562261692
+description: ''
+last_updated_timestamp: 1716600581701
+name: nyc-taxi-model

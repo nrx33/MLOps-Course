@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/33009b1062b74a21801cbdfb586fa5d7/artifacts
+end_time: 1716473211487
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 33009b1062b74a21801cbdfb586fa5d7
+run_name: melodic-lamb-401
+run_uuid: 33009b1062b74a21801cbdfb586fa5d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716473207293
+status: 3
+tags: []
+user_id: codespace

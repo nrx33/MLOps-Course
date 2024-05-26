@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/98972f0e13904ea38d9494e68d78857a/artifacts
+end_time: 1716596475296
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 98972f0e13904ea38d9494e68d78857a
+run_name: hilarious-newt-322
+run_uuid: 98972f0e13904ea38d9494e68d78857a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716596472735
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/c51a0c3770c448f3b3518faf02f46cb8/artifacts
+end_time: 1716479571876
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: c51a0c3770c448f3b3518faf02f46cb8
+run_name: mysterious-roo-388
+run_uuid: c51a0c3770c448f3b3518faf02f46cb8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716479521200
+status: 3
+tags: []
+user_id: codespace

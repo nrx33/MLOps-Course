@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/972a717b23ac4e788bcdda758b0754cd/artifacts
+end_time: 1716507960705
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 972a717b23ac4e788bcdda758b0754cd
+run_name: dashing-cub-612
+run_uuid: 972a717b23ac4e788bcdda758b0754cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716507903274
+status: 4
+tags: []
+user_id: codespace

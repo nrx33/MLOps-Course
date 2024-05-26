@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/abcc6e522b654dc9acb4be389bdf9bcf/artifacts
+end_time: 1716482281160
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: abcc6e522b654dc9acb4be389bdf9bcf
+run_name: colorful-bird-671
+run_uuid: abcc6e522b654dc9acb4be389bdf9bcf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716482056186
+status: 3
+tags: []
+user_id: codespace

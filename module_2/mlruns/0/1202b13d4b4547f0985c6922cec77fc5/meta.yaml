@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/1202b13d4b4547f0985c6922cec77fc5/artifacts
+deleted_time: 1716597799267
+end_time: 1716595043943
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 1202b13d4b4547f0985c6922cec77fc5
+run_name: sneaky-shrike-403
+run_uuid: 1202b13d4b4547f0985c6922cec77fc5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716595043912
+status: 4
+tags: []
+user_id: codespace

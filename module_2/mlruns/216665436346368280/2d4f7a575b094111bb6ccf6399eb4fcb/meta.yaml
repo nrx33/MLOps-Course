@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/2d4f7a575b094111bb6ccf6399eb4fcb/artifacts
+end_time: 1716478864372
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 2d4f7a575b094111bb6ccf6399eb4fcb
+run_name: enchanting-goose-189
+run_uuid: 2d4f7a575b094111bb6ccf6399eb4fcb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716478815581
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/178cd58021f847a0aaff23d58dfe15bc/artifacts
+end_time: 1716488305989
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 178cd58021f847a0aaff23d58dfe15bc
+run_name: unique-cow-649
+run_uuid: 178cd58021f847a0aaff23d58dfe15bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716488234235
+status: 3
+tags: []
+user_id: codespace

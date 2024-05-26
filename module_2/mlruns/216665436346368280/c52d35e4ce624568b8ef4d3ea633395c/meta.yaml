@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/c52d35e4ce624568b8ef4d3ea633395c/artifacts
+end_time: 1716481797550
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: c52d35e4ce624568b8ef4d3ea633395c
+run_name: fortunate-flea-361
+run_uuid: c52d35e4ce624568b8ef4d3ea633395c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716481632508
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/928d7ce341cb459eaee50d4091690829/artifacts
+end_time: 1716506815479
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 928d7ce341cb459eaee50d4091690829
+run_name: adaptable-foal-658
+run_uuid: 928d7ce341cb459eaee50d4091690829
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716506812495
+status: 3
+tags: []
+user_id: codespace

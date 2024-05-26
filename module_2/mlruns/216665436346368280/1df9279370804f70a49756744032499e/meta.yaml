@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/1df9279370804f70a49756744032499e/artifacts
+deleted_time: 1716478901541
+end_time: 1716477472190
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: deleted
+run_id: 1df9279370804f70a49756744032499e
+run_name: persistent-finch-313
+run_uuid: 1df9279370804f70a49756744032499e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716477472176
+status: 4
+tags: []
+user_id: codespace

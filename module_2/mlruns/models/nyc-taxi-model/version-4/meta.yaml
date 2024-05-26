@@ -1,0 +1,15 @@
+aliases:
+- pre-production
+creation_timestamp: 1716586737342
+current_stage: Staging
+description: This model was transitioned to pre production on 2024-05-25
+last_updated_timestamp: 1716600581746
+name: nyc-taxi-model
+run_id: c5c30653bc7e4fc49c69c3538c87683b
+run_link: ''
+source: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/c5c30653bc7e4fc49c69c3538c87683b/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/c5c30653bc7e4fc49c69c3538c87683b/artifacts/model
+user_id: null
+version: 4

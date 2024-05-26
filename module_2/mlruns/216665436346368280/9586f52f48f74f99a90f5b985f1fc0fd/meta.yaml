@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/9586f52f48f74f99a90f5b985f1fc0fd/artifacts
+end_time: 1716483140108
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 9586f52f48f74f99a90f5b985f1fc0fd
+run_name: stately-lark-215
+run_uuid: 9586f52f48f74f99a90f5b985f1fc0fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716482966508
+status: 3
+tags: []
+user_id: codespace

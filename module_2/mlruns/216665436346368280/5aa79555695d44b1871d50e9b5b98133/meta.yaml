@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/5aa79555695d44b1871d50e9b5b98133/artifacts
+end_time: 1716478067621
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 5aa79555695d44b1871d50e9b5b98133
+run_name: lyrical-yak-809
+run_uuid: 5aa79555695d44b1871d50e9b5b98133
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716478027196
+status: 3
+tags: []
+user_id: codespace

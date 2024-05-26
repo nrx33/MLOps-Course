@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/a2f3fd3deca1442dac5cce5b67e3ec95/artifacts
+deleted_time: 1716473377225
+end_time: 1716473335011
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: deleted
+run_id: a2f3fd3deca1442dac5cce5b67e3ec95
+run_name: grandiose-moth-46
+run_uuid: a2f3fd3deca1442dac5cce5b67e3ec95
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716473330806
+status: 3
+tags: []
+user_id: codespace

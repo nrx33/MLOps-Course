@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/8a5175578f8448ec82d6f13444a1ae75/artifacts
+end_time: 1716478193536
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 8a5175578f8448ec82d6f13444a1ae75
+run_name: carefree-gull-404
+run_uuid: 8a5175578f8448ec82d6f13444a1ae75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716478067627
+status: 3
+tags: []
+user_id: codespace

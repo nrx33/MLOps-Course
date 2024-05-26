@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/40b328122acb4d76928c907066679548/artifacts
+end_time: 1716488109477
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 40b328122acb4d76928c907066679548
+run_name: selective-stoat-696
+run_uuid: 40b328122acb4d76928c907066679548
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716488108977
+status: 4
+tags: []
+user_id: codespace

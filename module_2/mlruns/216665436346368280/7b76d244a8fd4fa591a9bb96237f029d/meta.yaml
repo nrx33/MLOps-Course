@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/7b76d244a8fd4fa591a9bb96237f029d/artifacts
+end_time: 1716482966495
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 7b76d244a8fd4fa591a9bb96237f029d
+run_name: capable-swan-209
+run_uuid: 7b76d244a8fd4fa591a9bb96237f029d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716482755623
+status: 3
+tags: []
+user_id: codespace

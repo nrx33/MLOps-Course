@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/25384de9d5cd466aa1c9200b44f714ad/artifacts
+end_time: 1716483457832
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 25384de9d5cd466aa1c9200b44f714ad
+run_name: magnificent-ape-444
+run_uuid: 25384de9d5cd466aa1c9200b44f714ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716483333475
+status: 3
+tags: []
+user_id: codespace

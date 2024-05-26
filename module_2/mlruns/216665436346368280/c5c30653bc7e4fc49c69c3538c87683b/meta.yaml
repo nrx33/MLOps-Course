@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/c5c30653bc7e4fc49c69c3538c87683b/artifacts
+end_time: 1716507212438
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: c5c30653bc7e4fc49c69c3538c87683b
+run_name: rare-kit-858
+run_uuid: c5c30653bc7e4fc49c69c3538c87683b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716507151094
+status: 3
+tags: []
+user_id: codespace

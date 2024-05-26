@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/fa680df0fdc8486a90b9e32405abbe77/artifacts
+end_time: 1716479755385
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: fa680df0fdc8486a90b9e32405abbe77
+run_name: traveling-crane-697
+run_uuid: fa680df0fdc8486a90b9e32405abbe77
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716479582504
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/f69af0e8a53747ad9fb3ace1a26b9090/artifacts
+end_time: 1716478517302
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: f69af0e8a53747ad9fb3ace1a26b9090
+run_name: chill-stag-493
+run_uuid: f69af0e8a53747ad9fb3ace1a26b9090
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716478437535
+status: 3
+tags: []
+user_id: codespace

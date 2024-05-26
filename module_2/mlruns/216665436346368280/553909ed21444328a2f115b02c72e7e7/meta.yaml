@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/553909ed21444328a2f115b02c72e7e7/artifacts
+end_time: 1716477470973
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 553909ed21444328a2f115b02c72e7e7
+run_name: gaudy-finch-386
+run_uuid: 553909ed21444328a2f115b02c72e7e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716477467280
+status: 3
+tags: []
+user_id: codespace

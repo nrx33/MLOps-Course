@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/b19b89ee3332450586ed8a73fa169c5f/artifacts
+end_time: 1716483875932
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: b19b89ee3332450586ed8a73fa169c5f
+run_name: likeable-conch-107
+run_uuid: b19b89ee3332450586ed8a73fa169c5f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716483665652
+status: 3
+tags: []
+user_id: codespace

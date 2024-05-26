@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/53e2fc464263446faea8f92bc1f4b086/artifacts
+end_time: 1716488219556
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 53e2fc464263446faea8f92bc1f4b086
+run_name: gregarious-ram-234
+run_uuid: 53e2fc464263446faea8f92bc1f4b086
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716488216531
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/79d8e66f178e42fb8701e6608788e2da/artifacts
+end_time: 1716488383931
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 79d8e66f178e42fb8701e6608788e2da
+run_name: unruly-cat-905
+run_uuid: 79d8e66f178e42fb8701e6608788e2da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716488339257
+status: 4
+tags: []
+user_id: codespace

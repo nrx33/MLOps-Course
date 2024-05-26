@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/7b363ddaf2904a439a1bfa44691e8099/artifacts
+end_time: 1716480682328
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 7b363ddaf2904a439a1bfa44691e8099
+run_name: victorious-calf-853
+run_uuid: 7b363ddaf2904a439a1bfa44691e8099
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716480555737
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/b8b8a14c05144372bfd6be158d987150/artifacts
+end_time: 1716506469401
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: b8b8a14c05144372bfd6be158d987150
+run_name: likeable-gull-184
+run_uuid: b8b8a14c05144372bfd6be158d987150
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716506466214
+status: 4
+tags: []
+user_id: codespace

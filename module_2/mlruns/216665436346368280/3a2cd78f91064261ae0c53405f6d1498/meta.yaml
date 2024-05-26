@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/3a2cd78f91064261ae0c53405f6d1498/artifacts
+end_time: 1716479838000
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 3a2cd78f91064261ae0c53405f6d1498
+run_name: selective-seal-188
+run_uuid: 3a2cd78f91064261ae0c53405f6d1498
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716479755405
+status: 3
+tags: []
+user_id: codespace

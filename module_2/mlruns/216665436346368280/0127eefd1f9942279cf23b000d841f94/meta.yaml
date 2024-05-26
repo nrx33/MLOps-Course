@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/0127eefd1f9942279cf23b000d841f94/artifacts
+end_time: 1716479949084
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 0127eefd1f9942279cf23b000d841f94
+run_name: masked-grub-523
+run_uuid: 0127eefd1f9942279cf23b000d841f94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716479838015
+status: 3
+tags: []
+user_id: codespace

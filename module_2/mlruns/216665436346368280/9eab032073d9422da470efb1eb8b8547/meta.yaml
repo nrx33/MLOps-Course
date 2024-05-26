@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/9eab032073d9422da470efb1eb8b8547/artifacts
+end_time: 1716480555725
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 9eab032073d9422da470efb1eb8b8547
+run_name: thundering-slug-698
+run_uuid: 9eab032073d9422da470efb1eb8b8547
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716480406946
+status: 3
+tags: []
+user_id: codespace

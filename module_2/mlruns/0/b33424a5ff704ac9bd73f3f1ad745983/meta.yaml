@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/b33424a5ff704ac9bd73f3f1ad745983/artifacts
+deleted_time: 1716597799262
+end_time: 1716595044517
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: b33424a5ff704ac9bd73f3f1ad745983
+run_name: respected-stag-240
+run_uuid: b33424a5ff704ac9bd73f3f1ad745983
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716595044502
+status: 4
+tags: []
+user_id: codespace

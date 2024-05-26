@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/60f6938e1c4a4844a5ee2efde3284bcf/artifacts
+end_time: 1716506486289
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 60f6938e1c4a4844a5ee2efde3284bcf
+run_name: nervous-lynx-396
+run_uuid: 60f6938e1c4a4844a5ee2efde3284bcf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716506483309
+status: 3
+tags: []
+user_id: codespace

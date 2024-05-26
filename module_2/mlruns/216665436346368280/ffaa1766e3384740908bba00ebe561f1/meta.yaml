@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/ffaa1766e3384740908bba00ebe561f1/artifacts
+end_time: 1716478552929
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: ffaa1766e3384740908bba00ebe561f1
+run_name: silent-smelt-823
+run_uuid: ffaa1766e3384740908bba00ebe561f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716478517309
+status: 3
+tags: []
+user_id: codespace

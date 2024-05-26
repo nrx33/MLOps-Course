@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/828a0c46bc2e4d97bdc7c8b0c156bc7d/artifacts
+end_time: 1716480352025
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 828a0c46bc2e4d97bdc7c8b0c156bc7d
+run_name: thundering-hawk-935
+run_uuid: 828a0c46bc2e4d97bdc7c8b0c156bc7d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716480221561
+status: 3
+tags: []
+user_id: codespace

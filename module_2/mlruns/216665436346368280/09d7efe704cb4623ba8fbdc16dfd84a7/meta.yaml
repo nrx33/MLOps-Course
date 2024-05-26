@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/09d7efe704cb4623ba8fbdc16dfd84a7/artifacts
+end_time: 1716596545262
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 09d7efe704cb4623ba8fbdc16dfd84a7
+run_name: powerful-bass-720
+run_uuid: 09d7efe704cb4623ba8fbdc16dfd84a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716596543803
+status: 3
+tags: []
+user_id: codespace

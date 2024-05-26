@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/0b1d8a9cd2ef4cabbd803745853f2981/artifacts
+end_time: 1716479042562
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 0b1d8a9cd2ef4cabbd803745853f2981
+run_name: gregarious-stork-272
+run_uuid: 0b1d8a9cd2ef4cabbd803745853f2981
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716478903700
+status: 3
+tags: []
+user_id: codespace

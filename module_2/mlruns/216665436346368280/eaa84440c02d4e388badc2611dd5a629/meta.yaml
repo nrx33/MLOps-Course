@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/eaa84440c02d4e388badc2611dd5a629/artifacts
+end_time: 1716596589574
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: eaa84440c02d4e388badc2611dd5a629
+run_name: intrigued-bear-671
+run_uuid: eaa84440c02d4e388badc2611dd5a629
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716596586872
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/a624ee8052bc4568bd2ce7acb0d83134/artifacts
+end_time: 1716473280035
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: a624ee8052bc4568bd2ce7acb0d83134
+run_name: gaudy-steed-778
+run_uuid: a624ee8052bc4568bd2ce7acb0d83134
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716473277577
+status: 3
+tags: []
+user_id: codespace

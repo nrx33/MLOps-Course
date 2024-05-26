@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/d2e693600bcb45a68f353cb8d8624d98/artifacts
+end_time: 1716478271881
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: d2e693600bcb45a68f353cb8d8624d98
+run_name: adaptable-stoat-618
+run_uuid: d2e693600bcb45a68f353cb8d8624d98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716478193542
+status: 3
+tags: []
+user_id: codespace

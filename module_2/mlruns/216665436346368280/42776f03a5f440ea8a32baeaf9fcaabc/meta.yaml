@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/42776f03a5f440ea8a32baeaf9fcaabc/artifacts
+end_time: 1716596444918
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: 42776f03a5f440ea8a32baeaf9fcaabc
+run_name: useful-steed-710
+run_uuid: 42776f03a5f440ea8a32baeaf9fcaabc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716596440063
+status: 3
+tags: []
+user_id: codespace

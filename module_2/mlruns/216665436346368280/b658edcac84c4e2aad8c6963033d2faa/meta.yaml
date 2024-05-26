@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/b658edcac84c4e2aad8c6963033d2faa/artifacts
+end_time: 1716484049283
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: b658edcac84c4e2aad8c6963033d2faa
+run_name: kindly-shrike-967
+run_uuid: b658edcac84c4e2aad8c6963033d2faa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716483970516
+status: 3
+tags: []
+user_id: codespace

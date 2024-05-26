@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-course/module_2/mlruns/216665436346368280/b6dc9c7b2fb04e88bbde557dc3cbddc5/artifacts
+end_time: 1716481011442
+entry_point_name: ''
+experiment_id: '216665436346368280'
+lifecycle_stage: active
+run_id: b6dc9c7b2fb04e88bbde557dc3cbddc5
+run_name: bold-croc-573
+run_uuid: b6dc9c7b2fb04e88bbde557dc3cbddc5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716480846860
+status: 3
+tags: []
+user_id: codespace
