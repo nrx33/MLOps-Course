@@ -1,4 +1,4 @@
-## MLOps Zoomcamp 2024 Cohort
+### MLOps Zoomcamp 2024 Cohort
 
 `Homeworks`
 * [Homework 1](https://github.com/nrx33/MLOps-Course/blob/main/module_1/homework_1.ipynb)<br>
