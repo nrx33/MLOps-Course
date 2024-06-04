@@ -1,3 +1,0 @@
-[submodule "module_3/mlops"]
-  path = module_3/mlops
-  url = https://github.com/mage-ai/mage-ai
