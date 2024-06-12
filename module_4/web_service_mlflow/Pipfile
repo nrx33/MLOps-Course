@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+packaging = "==24.0"
+psutil = "==5.9.8"
+scikit-learn = "==1.4.2"
+scipy = "==1.13.0"
+
+[dev-packages]
+requests = "*"
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.19"
