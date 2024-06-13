@@ -8,7 +8,7 @@ WORKDIR /app
 RUN pip install pipenv
 
 # Copy the Pipfile and Pipfile.lock into the current working directory
-COPY Pipfile Pipfile.lock .
+COPY Pipfile Pipfile.lock ./
 
 # Install the dependencies using pipenv
 RUN pipenv install --deploy --system
