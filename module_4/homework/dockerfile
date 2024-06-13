@@ -1,0 +1,22 @@
+# Use the specified base image
+FROM agrigorev/zoomcamp-model:mlops-2024-3.10.13-slim
+
+# Set the working directory to /app
+WORKDIR /app
+
+# Install pipenv
+RUN pip install pipenv
+
+# Copy the Pipfile and Pipfile.lock into the container
+COPY Pipfile Pipfile.lock /app/
+
+# Install the dependencies using pipenv
+# --deploy ensures that the Pipfile.lock is used
+# --system installs the packages into the global Python environment
+RUN pipenv install --deploy --system
+
+# Copy your script into the /app directory
+COPY script.py /app/
+
+# Set the entry point to your script
+ENTRYPOINT ["python", "script.py"]
