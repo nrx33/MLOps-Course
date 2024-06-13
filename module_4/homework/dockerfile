@@ -7,16 +7,14 @@ WORKDIR /app
 # Install pipenv
 RUN pip install pipenv
 
-# Copy the Pipfile and Pipfile.lock into the container
-COPY Pipfile Pipfile.lock /app/
+# Copy the Pipfile and Pipfile.lock into the current working directory
+COPY Pipfile Pipfile.lock .
 
 # Install the dependencies using pipenv
-# --deploy ensures that the Pipfile.lock is used
-# --system installs the packages into the global Python environment
 RUN pipenv install --deploy --system
 
-# Copy your script into the /app directory
-COPY script.py /app/
+# Copy your script into the current working directory
+COPY script.py .
 
 # Set the entry point to your script
 ENTRYPOINT ["python", "script.py"]
