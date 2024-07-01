@@ -4,7 +4,7 @@ cd "$(dirname "$0")"
 
 LOCAL_TAG=$(date +"%Y-%m-%d-%H-%M")
 export LOCAL_IMG_TAG="stream-model-duration:${LOCAL_TAG}"
-export PREDICTIONS_STREAM_NAME="ride_predictions_kinesis_v7"
+export PREDICTIONS_STREAM_NAME="ride_predictions_kinesis_v9"
 
 docker build -t ${LOCAL_IMG_TAG} ..
 

@@ -1,23 +1,29 @@
-import json
-import boto3
-import base64
 import os
+import json
+import base64
+
+import boto3
 import mlflow
 
 os.environ["MLFLOW_S3_ENDPOINT_URL"] = "http://localhost:4566"
+
 
 def load_model(run_id):
     s3_path = f's3://model-bucket/runs/{run_id}/artifacts/model'
     model = mlflow.pyfunc.load_model(s3_path)
     return model
 
+
 def base64_decode(encoded_data):
     decoded_data = base64.b64decode(encoded_data).decode('utf-8')
     ride_event = json.loads(decoded_data)
     return ride_event
 
-class ModelService():
-    def __init__(self, model, prediction_stream_name, test_run, model_version=None, callbacks=None):
+
+class ModelService:
+    def __init__(
+        self, model, prediction_stream_name, test_run, model_version=None, callbacks=None
+    ):
         self.model = model
         self.prediction_stream_name = prediction_stream_name
         self.test_run = test_run
@@ -29,7 +35,7 @@ class ModelService():
             endpoint_url='http://localhost:4566',  # LocalStack endpoint
             region_name='us-east-2',  # Match the region in your config
             aws_access_key_id='test',  # Use dummy credentials for LocalStack
-            aws_secret_access_key='test'
+            aws_secret_access_key='test',
         )
 
     def prepare_features(self, ride):
@@ -56,10 +62,7 @@ class ModelService():
             prediction_event = {
                 'model': 'ride_duration_prediction_model',
                 'version': self.model_version,
-                'prediction': {
-                    'ride_duration': prediction,
-                    'ride_id': ride_id
-                }
+                'prediction': {'ride_duration': prediction, 'ride_id': ride_id},
             }
 
             for callback in self.callbacks:
@@ -67,9 +70,8 @@ class ModelService():
 
             predictions_events.append(prediction_event)
 
-        return {
-            'predictions': predictions_events
-        }
+        return {'predictions': predictions_events}
+
 
 class KinesisCallback:
     def __init__(self, kinesis_client, prediction_stream_name):
@@ -85,14 +87,16 @@ class KinesisCallback:
             PartitionKey=str(ride_id),
         )
 
+
 def create_kinesis_client():
     return boto3.client(
         'kinesis',
         endpoint_url='http://localhost:4566',  # LocalStack endpoint
         region_name='us-east-2',  # Match the region in your config
         aws_access_key_id='test',  # Use dummy credentials for LocalStack
-        aws_secret_access_key='test'
+        aws_secret_access_key='test',
     )
+
 
 def init(prediction_stream_name: str, run_id: str, test_run: bool):
     model = load_model(run_id)
@@ -104,10 +108,7 @@ def init(prediction_stream_name: str, run_id: str, test_run: bool):
         callbacks.append(kinesis_callback.put_record)
 
     model_service = ModelService(
-        model,
-        prediction_stream_name,
-        test_run,
-        model_version=run_id,
-        callbacks=callbacks)
+        model, prediction_stream_name, test_run, model_version=run_id, callbacks=callbacks
+    )
 
     return model_service

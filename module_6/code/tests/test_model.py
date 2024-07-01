@@ -1,5 +1,7 @@
 from pathlib import Path
+
 import model
+
 
 def read_text(file):
     test_directory = Path(__file__).parent
@@ -7,35 +9,27 @@ def read_text(file):
     with open(test_directory / file, 'rt', encoding='utf-8') as f_in:
         return f_in.read().strip()
 
+
 def test_prepare_features():
     model_service = model.ModelService(None, None, None)
 
-    ride = {
-        "PULocationID": 130,
-        "DOLocationID": 205,
-        "trip_distance": 3.66
-    }
+    ride = {"PULocationID": 130, "DOLocationID": 205, "trip_distance": 3.66}
 
     actual_features = model_service.prepare_features(ride)
-    expected_features = {
-        'PU_DO': '130_205',
-        'trip_distance': 3.66
-    }
+    expected_features = {'PU_DO': '130_205', 'trip_distance': 3.66}
 
     assert actual_features == expected_features
+
 
 def test_base64_decode():
     base64_input = read_text('data.b64')
     actual_result = model.base64_decode(base64_input)
     expected_result = {
-        "ride": {
-            "PULocationID": 130,
-            "DOLocationID": 205,
-            "trip_distance": 3.66
-        },
-        "ride_id": 256
+        "ride": {"PULocationID": 130, "DOLocationID": 205, "trip_distance": 3.66},
+        "ride_id": 256,
     }
     assert actual_result == expected_result
+
 
 class ModelMock:
     def __init__(self, value):
@@ -44,6 +38,7 @@ class ModelMock:
     def predict(self, X):
         n = len(X)
         return [self.value] * n
+
 
 def test_predict():
     model_mock = ModelMock(10.0)
@@ -61,12 +56,15 @@ def test_predict():
 
     assert actual_prediction == expected_prediction
 
+
 def test_lambda_handler():
     model_mock = ModelMock(10.0)
     prediction_stream_name = "test_stream"
     test_run = True
     model_version = '123'
-    model_service = model.ModelService(model_mock, prediction_stream_name, test_run, model_version)
+    model_service = model.ModelService(
+        model_mock, prediction_stream_name, test_run, model_version
+    )
 
     base64_input = read_text('data.b64')
 

@@ -1,6 +1,7 @@
 import os
-import requests
 import json
+
+import requests
 from deepdiff import DeepDiff
 
 # Adjust the path as needed
@@ -16,14 +17,14 @@ actual_response = requests.post(url, json=event, timeout=4).json()
 print("Actual Response:", json.dumps(actual_response, indent=2))
 
 expected_response = {
-    'predictions': [{
-        'model': 'ride_duration_prediction_model', 
-        'version': '3cbf46c116d7466c8934f1ca53e34cd5', 
-        'prediction': {
-            'ride_duration': 18.17, 
-            'ride_id': 256}
-        }]
-    }
+    'predictions': [
+        {
+            'model': 'ride_duration_prediction_model',
+            'version': '3cbf46c116d7466c8934f1ca53e34cd5',
+            'prediction': {'ride_duration': 18.17, 'ride_id': 256},
+        }
+    ]
+}
 
 diff = DeepDiff(actual_response, expected_response, significant_digits=2)
 print(f'diff={diff}')

@@ -2,9 +2,17 @@
 disable = [
     "missing-function-docstring",
     "missing-class-docstring",
-    "wrong-import-order",
     "too-few-public-methods",
     "missing-module-docstring",
     "too-many-arguments",
-    "invalid-name",
+    "invalid-name"
 ]
+
+[tool.black]
+line-length = 90
+target-version = ['py39']
+skip-string-normalization = true
+
+[tool.isort]
+multi_line_output = 3
+length_sort = true
