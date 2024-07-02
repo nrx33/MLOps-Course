@@ -10,7 +10,7 @@
 * [Homework 3](https://github.com/nrx33/MLOps-Course/blob/main/module_3/nazmul_homework_3.ipynb)<br>
 * [Homework 4](https://github.com/nrx33/MLOps-Course/blob/main/module_4/homework/nazmul_homework_4.ipynb)<br>
 * [Homework 5](https://github.com/nrx33/MLOps-Course/blob/main/module_5/homework/nazmul_homework_5.ipynb)<br>
-* [Homework 6](https://github.com/)
+* [Homework 6](https://github.com/nrx33/MLOps-Course/blob/main/module_5/homework/nazmul_homework_5.ipynb)
 
 <br>`Final Project`
 * [Project](https://github.com/)<br>
