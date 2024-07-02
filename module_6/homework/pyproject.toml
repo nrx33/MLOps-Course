@@ -5,4 +5,9 @@ disable = [
     "pointless-statement",
     "unexpected-keyword-arg",
     "undefined-variable",
+    "line-too-long",
+    "missing-module-docstring",
+    "no-else-return",
+    "import-error",
+    "wrong-import-position",
 ]
