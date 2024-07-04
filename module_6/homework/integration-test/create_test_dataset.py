@@ -11,11 +11,9 @@ def dt(hour, minute, second=0):
 
 # Create the dataframe as in Q3
 data = [
-    (None, None, dt(1, 2), dt(1, 10)),
-    (1, None, dt(1, 2), dt(1, 10)),
-    (1, 2, dt(2, 2), dt(2, 3)),
-    (None, 1, dt(1, 2, 0), dt(1, 2, 50)),
-    (2, 3, dt(1, 2, 0), dt(1, 2, 59)),
+    (None, None, dt(1, 1), dt(1, 10)),
+    (1, 1, dt(1, 2), dt(1, 10)),
+    (1, None, dt(1, 2, 0), dt(1, 2, 59)),
     (3, 4, dt(1, 2, 0), dt(2, 2, 1)),
 ]
 
@@ -35,9 +33,11 @@ s3 = fs.S3FileSystem(endpoint_override=s3_endpoint_url)
 
 # Define bucket and key
 bucket = "homework-6"
-key = "in/2022-01.parquet"
+key = "in/2023-01.parquet"
 
 # Save the dataframe to a parquet file in Localstack S3
-df.to_parquet(f"{bucket}/{key}", engine="pyarrow", filesystem=s3, index=False)
+df.to_parquet(
+    f"{bucket}/{key}", engine="pyarrow", filesystem=s3, index=False, compression=None
+)
 
 print("Dataframe saved to Localstack S3.")

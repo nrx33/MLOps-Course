@@ -70,7 +70,7 @@ def main(year, month):
     df["ride_id"] = f"{year:04d}/{month:02d}_" + df.index.astype("str")
     X_val = dv.transform(df[categorical].to_dict(orient="records"))
     y_pred = lr.predict(X_val)
-    print("predicted mean duration:", y_pred.mean())
+    print("Sum of predicted mean duration:", y_pred.sum())
     df_result = pd.DataFrame({"ride_id": df["ride_id"], "predicted_duration": y_pred})
     output_path = get_output_path(year, month)
     save_data(df_result, output_path)

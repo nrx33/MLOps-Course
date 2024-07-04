@@ -12,7 +12,7 @@ if [ -z "$PIPENV_ACTIVE" ]; then
 fi
 
 # Run your Python script
-if python create_test_dataset.py && cd .. && pylint --recursive=y . && pytest ./tests && black . && isort . && python batch.py 2022 01; then
+if python create_test_dataset.py && cd .. && black . && isort . && pylint --recursive=y . && pytest ./tests && python batch.py 2023 01; then
     echo "Integration Test Passed!"
 else
     echo "Integration Test Failed!"
