@@ -13,4 +13,4 @@
 * [Homework 6](https://github.com/nrx33/MLOps-Course/blob/main/module_6/homework/nazmul_homework_6.ipynb)
 
 <br>`Final Project`
-* [Project](https://github.com/)<br>
+* [Project](https://github.com/nrx33/taxi_chicago_prediction_mlops/)<br>
