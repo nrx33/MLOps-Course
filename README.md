@@ -1,5 +1,8 @@
 ### MLOps Zoomcamp 2024 Cohort
 
+Course Certificate: 
+[Verify](https://certificate.datatalks.club/mlops-zoomcamp/2024/3876c0b14d0efacfb75371e02400072a1ba7890d.pdf)
+
 <br>*What I Learned*
 - **MLflow:** Managing the end-to-end machine learning lifecycle, including experiment tracking, model packaging, and deployment.
 - **Mage:** Building and managing data pipelines to streamline data integration and transformation for machine learning workflows.
